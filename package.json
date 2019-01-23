@@ -1,0 +1,23 @@
+{
+  "name": "myutil",
+  "version": "1.0.0",
+  "description": "",
+  "main": "type.js",
+  "scripts": {
+    "test": "mocha --require babel-register",
+    "start": "yarn webpack --mode development --config  webpack.config.js",
+    "build": "yarn webpack --mode production --config  webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "nyc": "^13.1.0",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
+}
