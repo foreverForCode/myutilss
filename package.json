@@ -18,5 +18,8 @@
     "babel-register": "^6.26.0",
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "should": "^13.2.3"
   }
 }
